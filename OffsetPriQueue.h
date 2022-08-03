@@ -35,13 +35,10 @@ public:
 	OffsetPriQueue(size_t);
 	~OffsetPriQueue();
 
-	bool isEmpty();
-
 	void enqueue(T);
 	T dequeue();
-
+	bool isEmpty();
 	int size();
-
 	void display();
 };
 
